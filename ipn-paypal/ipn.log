@@ -1,0 +1,699 @@
+[2016-02-06 19:49 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 913
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=826.50&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=09%3A49%3A08+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=42.23&notify_version=3.8&custom=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AGu.hbwMxRXoqDiyy-IJNOnULnvNAzLjdkgacOZ81WNPVWJvFZdsJjnQ&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=2HR55377UL2030444&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=a429f3fabfba5
+[2016-02-06 19:49 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2016 17:49:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=F3NYr0z_KlX1TaNj2NXgklHk2wGaMF95OMv-NXmpMRdf6Uzm6C_zwbqkhx3oAYZZoMM4LQadGb4KqzQ7IvbrxPPMJaliirfc5s4eDdOrk2NwtPGYkqMOxnhnBfoULvOPLBhBeoKS8jVSPPvWI6HiC9rppS5xLuAZP8dfGqiT44wF7fisVUIdUGfZrZ-X-V-uadY677649ubiUL04GL9gTSh0dAYpzPykjb3HtHtF2EEZjfUwP4_wqQPIuH6Zrbb6k4oZez4zC_YAKvuP9bmBqgHSCaB83fEGN54bJRSFWWZ3yRNa2JHUduONfbcf9bhM9IJsOOgiYp2XuBadpdkvgyg5_LckAz6PejLOvGHB881UtiyiSYYIEt3MBSlaip-rjexxvLsGD6PiVW2Xud_2HtbDEDmRdrUfE4HF2boPJ4DYDjLyfb9O__VOPMm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 03-Feb-2026 17:49:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 05-Feb-2018 17:49:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454780955963718; path=/; expires=Mon, 29-Jan-46 17:49:15 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: df8f21abe735b
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D456308310; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-06 19:49 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=826.50&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=09%3A49%3A08+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=42.23&notify_version=3.8&custom=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AGu.hbwMxRXoqDiyy-IJNOnULnvNAzLjdkgacOZ81WNPVWJvFZdsJjnQ&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=2HR55377UL2030444&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=a429f3fabfba5 
+[2016-02-06 22:01 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 914
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1016.50&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=12%3A01%3A02+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=49.64&notify_version=3.8&custom=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AChd1lvGmhtjS9LmmR0iScpRuSwKASClm6phNIYxAqOiBvZ1CnONeN1k&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=4A046047EL8454917&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=1f5a168a37716
+[2016-02-06 22:01 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2016 20:01:15 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=jn1u7An7Ep5KqVJyrWDs47gfry3qQHhkmhdFrklkF-ymcTAyw7vPcTAVSJVxD-oFmdn-qprERlAfQpzuns2v5GbaNgpmGHLZVm6b-6tu3CXR7vb5E24-k_p61retUljvB0_q5EmD7N6o5NqxVbqgJw9RVATAERCDSR6DVY0sqEsHN9XEJpkNRxGV13N0fJB6pxNuNAo5DmPbj5HsvkR71eTrEQjHW2_Ofoq1wj3YCE7OzJXnWt0TlgHI3P1REjLSrEKq2steNdk9jToWGmGqxqLo8k65lMKGi3-63VpSpt3dnnEDsZSyzIPubECrwfi3lH_3vMv7n4m0hD9FM-x--R4lsw33uUu8dXh-QvlMSpLbHTdhyWtl1Q9YGji7sbGjI6kGvS1_pYZ9S18X-szTh0tEwnA21rYl5RfUGXoRShUw7OlKzwbmrK9M_GG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 03-Feb-2026 20:01:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 05-Feb-2018 20:01:15 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454788875129934; path=/; expires=Mon, 29-Jan-46 20:01:15 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: b89bd23f1af6e
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D189904470; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-06 22:01 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=1016.50&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=12%3A01%3A02+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=49.64&notify_version=3.8&custom=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AChd1lvGmhtjS9LmmR0iScpRuSwKASClm6phNIYxAqOiBvZ1CnONeN1k&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=4A046047EL8454917&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=1f5a168a37716 
+[2016-02-06 22:12 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 914
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1250.20&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=12%3A12%3A30+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=58.76&notify_version=3.8&custom=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AGs52InFHk3cJ5j80u2Udq.A26J4AhOSYA-vXOJhvFqloCYBjsmllkMl&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=7RV55227AC3041300&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=1129a1937d9c2
+[2016-02-06 22:12 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sat, 06 Feb 2016 20:12:36 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=qEtZN0yus1jFR6Qgu0AwPJe86kHngl4KIaLTr5yyRJCZ_w0bF_W825dWrqTtOFwUmzuxoF5dz0WEfQo5nbQOXmD41a1rvr91c-vQJgICC9TxoGG90ORcRnjnKs86NF6V5nUFcJ4XxTVt-DzCSkJ5eRxR_lRapl7FIUTflr3hNYdm0fAz2D2h63MEv_AURIzAqYatuUfAFfTrAfqOU1GhPpZ8KKct6j5GvQemEgpO-3m_eMh6QSQAmcoVtOSmJ4xDPq-1APLcxX_hubjNbSFZcmWsX621uPdX9KNehdpgjxL-OYp6zoF6x_wZsOgfVoxWhJiZAwrrjqdvPmirhY8PPWhCdWePpBK2rf6UhILIefEUeNdlBSwk0UZd3lx0C8QoWdnefANtHGaomT-hkUO79tSnzSeflOFLv45aKai_4g4mJv8zWEEXIPgjhdO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 03-Feb-2026 20:12:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 05-Feb-2018 20:12:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454789556573339; path=/; expires=Mon, 29-Jan-46 20:12:36 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 9bdc11a286041
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3025385046; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-06 22:12 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=1250.20&protection_eligibility=Ineligible&payer_id=F7DDH2WR2Z2AS&tax=0.00&payment_date=12%3A12%3A30+Feb+06%2C+2016+PST&payment_status=Pending&charset=KOI8_R&first_name=test&mc_fee=58.76&notify_version=3.8&custom=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payer_status=verified&business=fubolg_ua-facilitator%40ukr.net&quantity=1&verify_sign=AGs52InFHk3cJ5j80u2Udq.A26J4AhOSYA-vXOJhvFqloCYBjsmllkMl&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=7RV55227AC3041300&payment_type=instant&last_name=buyer&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=web_accept&item_name=Greedy+Dwarf&mc_currency=RUB&item_number=&residence_country=RU&test_ipn=1&handling_amount=0.00&transaction_subject=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payment_gross=&shipping=0.00&ipn_track_id=1129a1937d9c2 
+[2016-02-07 19:06 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 877
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payment_date=09%3A05%3A49+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AYvdIq9lSSd4DZFxi2pjn.MzEntlAIRs3nMo4BNqIlWMTUHIVROev5RT&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=9VU44252YX523351S&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=7RV55227AC3041300&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-58.76&shipping=0.00&mc_gross=-1250.20&custom=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=67aeae641b98e
+[2016-02-07 19:06 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:06:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=8yC6JZVRmSPr0w2yj6siyxHHwzMhdc-fNqcFt2bgSy21O1ttPJnrWaJrfb2wBzgFTFXGco0BWyvK2KE8K8UCOIHuq9WhDXgK6gmVq27O9FhtBTatsLltF2w8o1wm-tUyD7eg2NKVg7q7UvBGco4nv8IKhRc3S3oeJp3a7rR4AI5Omd_F7vI83j11rU1fm8RS5AO-IEz_QxK0kEXNS4REa19sZ5wZGNdrUPPZkSTynLjOD544ZiKrkQ7wy3qML6Ja1fTBRgxvyO7ueKrZt3pNO6NNps78bAWwKf4qmLy6WFawJNHazas_Nxcfd-AS0wxwPDaKYbt3PE3ZGGGA4zabmLyTUXj8fgL1ano91-ksl2QUrlb5SyZaQnmMcn-BDrqx34AUdf7wtK_saW1p28NFCjILwaTCjlBcit9gDytNojqel8TQw-MZAQUdwJC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:06:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:06:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864763620202; path=/; expires=Tue, 30-Jan-46 17:06:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: b432c254936fb
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2071574358; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:06 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&payment_date=09%3A05%3A49+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AYvdIq9lSSd4DZFxi2pjn.MzEntlAIRs3nMo4BNqIlWMTUHIVROev5RT&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=9VU44252YX523351S&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=7RV55227AC3041300&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-58.76&shipping=0.00&mc_gross=-1250.20&custom=%7B%22user_id%22%3A%222049%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=67aeae641b98e 
+[2016-02-07 19:06 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 953
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221700%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A35+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%90%D0%B7%D1%83%D1%80%D0%B5%D0%B3%D0%BE%D1%81+-+%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A.C3Y6avAc5l3exmOoHvI7ZbPqbNACBKLrnSQ50E.bLb0rSxGH0Y3jyl&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=5KD053033P281111X&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=916607341A600700S&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-142.75&shipping=0.00&mc_gross=-3403.80&custom=%7B%22user_id%22%3A%221700%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=70097fa2d365d
+[2016-02-07 19:06 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:06:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=wlZ7SsvH1eStXnLSAniuazd7ZPKYQSf-go4gO_FuIh8MVFNuAi3PxGoTgx5cQp9t8ziQyNGIBqx-4WGcLgLJY_Ma5XAbfOIJsUUrNgECs9jmzmxGCOYS73QfqdB6a_5bC7H_ypA9Y4L74T4ZPt9DvtBoOPOGbkDdq3YF_7VBhP3RNnEBk4UlgO7qgbLrlTUEgSCjwW-Y0AQrR-UpZfPwyD2dB8c09cY5MsPp0yFj3ATgNDur-8O9vHQ9naEWLDaKkg_q-xlxss-cYzQrSE2rGaT3gWSdGSTZQPR6TZCLtWqUFieTT7qHT1s9jhDUQ_QugXiqOWBAAKTxJIS1CaqiGpdyrEmwUN_Uj3qz9oX9OJBFSxPWP3Hn8YhYVtKoh8L_R1DSjJXZTJfyHz-hmdhN5XhXVE6t8yXSJHm9__AUoLoAP20we0VsZMgqeiy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:06:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:06:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864805933814; path=/; expires=Tue, 30-Jan-46 17:06:45 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: d55c236cdfd62
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2776217430; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:06 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221700%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A35+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%90%D0%B7%D1%83%D1%80%D0%B5%D0%B3%D0%BE%D1%81+-+%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A.C3Y6avAc5l3exmOoHvI7ZbPqbNACBKLrnSQ50E.bLb0rSxGH0Y3jyl&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=5KD053033P281111X&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=916607341A600700S&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-142.75&shipping=0.00&mc_gross=-3403.80&custom=%7B%22user_id%22%3A%221700%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=70097fa2d365d 
+[2016-02-07 19:07 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 877
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A12+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AWAL5ZFXnYZVEnzYwDyGLm5gvYZiAUJgSi683IndCyqAM8AGpUBBop1b&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=1MN05657MY3166321&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=4A046047EL8454917&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-49.64&shipping=0.00&mc_gross=-1016.50&custom=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=c0983608e718c
+[2016-02-07 19:07 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:07:00 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=cgWbBsKtctElLaejEeFUBxo-vwKIZfiJMElqvixuYQLNhYSv23iFu9DASjw3-jfWWAR_ciZg8v___irHuYBqzw00KjmUvSKtX9PDn7utVN6RIH8Uin1t2RmAnUEJuv-531MG2w2v_vARGjFG9MpTXpnTQ3WFAk5q9ciTVMXY0zyWfdO---LTLeAspqJR293L_xaB-t_QqkfuWI_nfc5ZtVsyuwHgdgjcG5OVd2jdgoGHPGLv18Q0j_vO_XD7FEB_BewVaesjTz3bVp1M777YZIJwrhBIjtv8wMcFgcS2YqiA-Bwh32ICKWDUVabOI8PTNXTesP6pFO-owPTQ87o43698uU6LsjLPY3xT2Gyi34WnUW19_5f1FZ2f5s6U1QJ4qStBrtGNbYeGEQKvpeFhDP7lHKcIwQcL_gwDE2X23sQeUj39jWgxv-n4cd0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:07:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:07:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864820667429; path=/; expires=Tue, 30-Jan-46 17:07:00 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 99ca07949dded
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3027875670; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:07 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A12+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AWAL5ZFXnYZVEnzYwDyGLm5gvYZiAUJgSi683IndCyqAM8AGpUBBop1b&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=1MN05657MY3166321&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=4A046047EL8454917&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-49.64&shipping=0.00&mc_gross=-1016.50&custom=%7B%22user_id%22%3A%222048%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=c0983608e718c 
+[2016-02-07 19:07 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 876
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A53+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A2wHORwBryBM6DBo6dGbSWSQ9H4NAHWGiROXcT0FXlOwsVEiNY461FUP&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=4TR79994NL408914V&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=2HR55377UL2030444&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-42.23&shipping=0.00&mc_gross=-826.50&custom=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=f67515df98d40
+[2016-02-07 19:07 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:07:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=QVh87dV526BBedrmGHLk_Yes7Bi9pqO9NW1_t_TfKZV0EW1cefivHEvQ4xf_zekktmxdC62P2aUpNeipgkGE5bolil9fTtP592ucbvcrTXK-9UAZapQvUp4cQLcjKeZjJHvXeYMyxttg9MPLPwlfZBIQsCGg-yWRIlVoeQnvNx-Xr_ss60mbkK98kLT7h4tVqYXTjtP13FRd1vmwX5B92pVQZuX2LgGUi_bE-egpP3pmx8U9-rdLdaVs51YckVe7Ju1hy1DkZm6oDHdTD7x7SsSWu7r0yQn_ynbk_Dmld5zFJhmlq4Ov4rMuR194yegjcEQUx3i0kfL65UpPZ7h4LAf2rVsWJzb2y-Ja6qBphXfhY3ZnQeYuE0WROEpjOuDLtyCDKsY5tiX4LrnjAfOlRmMTHVY6jOhcY9ArPuz8EOFw2O4huGGx0x6rTdq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:07:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:07:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864822057498; path=/; expires=Tue, 30-Jan-46 17:07:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 87cb69639ee4
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3061430102; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:07 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&payment_date=09%3A06%3A53+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A2wHORwBryBM6DBo6dGbSWSQ9H4NAHWGiROXcT0FXlOwsVEiNY461FUP&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=4TR79994NL408914V&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=2HR55377UL2030444&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-42.23&shipping=0.00&mc_gross=-826.50&custom=%7B%22user_id%22%3A%222040%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=f67515df98d40 
+[2016-02-07 19:08 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 984
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221605%22%2C%22product_id%22%3A50%7D&payment_date=09%3A07%3A20+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%91%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F+%D0%A2%D1%83%D0%BD%D0%B4%D1%80%D0%B0+-+%D0%9E%D1%80%D0%B4%D0%B0&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=Aq6FEEsrPzfzaMCarfeyezYVCd0SAMqSqZ-xLJrw5AdUcfD.iLw3T4n1&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=35771646CH448484D&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=3WW061282F812232U&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-183.72&shipping=0.00&mc_gross=-4454.40&custom=%7B%22user_id%22%3A%221605%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=f6a98492dd22f
+[2016-02-07 19:08 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:08:00 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=kCp7GWOmxndAxZopg6DyjqX_4GMjxxbO00XCp8KRZL6ilq0u4JHZBOBYXZQqG2RS0o26Vor7KRmZvy6_AxBOVzKy0M6AFo3q1xIXYZzyhmo2NPt93kkd3TCqmDMvHFk3p1elxeZl4T8ilBsUEK7ubaV_kH275TMRjDn3vucbZIKkCTvZPvRKj6-k3vfS5h6IVf47W9CFUdjIa88DwotWemxG156_r36BBUxUJMqufrl0yAKr5IDqf5qq61dNUvJZUWLYWCPgj5poMAyXXSwW2R_eEkcG_GZqu1_aBLShBmjC9V6my_M-8o6qJQ-Kyinr626tdtPwqEkW62-HFZ_X0ps7GEK0pt4n4k7hLZsRuSBVP0Qec91NTVfmZixJiXDiQApxBp-pKRDj5t1XSlW1N6Pg80Ka8G_I24LOZ6xPrv6WJdNv6BENgflA00G; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:08:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:08:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864880654561; path=/; expires=Tue, 30-Jan-46 17:08:00 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: bfc984d59bb92
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4034508630; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:08 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221605%22%2C%22product_id%22%3A50%7D&payment_date=09%3A07%3A20+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%91%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F+%D0%A2%D1%83%D0%BD%D0%B4%D1%80%D0%B0+-+%D0%9E%D1%80%D0%B4%D0%B0&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=Aq6FEEsrPzfzaMCarfeyezYVCd0SAMqSqZ-xLJrw5AdUcfD.iLw3T4n1&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=35771646CH448484D&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=3WW061282F812232U&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-183.72&shipping=0.00&mc_gross=-4454.40&custom=%7B%22user_id%22%3A%221605%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=f6a98492dd22f 
+[2016-02-07 19:08 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 878
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222020%22%2C%22product_id%22%3A50%7D&payment_date=09%3A07%3A42+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A2keYSqtKDE2WXackaKlaYXRFAd4A.nDyE6l84.xuzMWpFCczz4pw7eV&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=55D23406VS1534031&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=61381976VR589340J&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-103.94&shipping=0.00&mc_gross=-2408.70&custom=%7B%22user_id%22%3A%222020%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=53226dc9dde8a
+[2016-02-07 19:08 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:08:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=RTey5Buin7dXgNMwhpimbtWTOixKbRxtdfcO0a2SsHK7Sz07KOb26oDn_5nI2mHMovNRr8nH2r47UlocY8EChl9wvmx6_Ia8Iez-o8E-mABfFw8BcKpA_BXXMfJ1ZyrKC9FmJ4Rt_INyITsEKIA7hyqIDeAyEFpxkcZ4vxKmx2qOnfKoOTU8JiU2q21oGG-F_v_ad9YLh-4gx7kxVBr0x5Dd3r7qcOli-ctb_WEzYMlS4Eowb5KWyFg-XOCUIDWA4yN3Fango4nubOlNNUikotN40njxnwnJ-hJ6he2WK34wPcXLGFczT8n8k8Hpuq5Xj2eMiz_zzaW3UVRYqZQIxP_Crk3La-XWIgAQHg8VsTQUArc4-9BboI9UY7_J4tNCkcjAli8kPPjjvqHZWOtui3DlRtJjEHLilPQHImSZfF0Pv4TMpSFG0_ICmBy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:08:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:08:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864883684835; path=/; expires=Tue, 30-Jan-46 17:08:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: b7ac22afa3267
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4084840278; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:08 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222020%22%2C%22product_id%22%3A50%7D&payment_date=09%3A07%3A42+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A2keYSqtKDE2WXackaKlaYXRFAd4A.nDyE6l84.xuzMWpFCczz4pw7eV&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=55D23406VS1534031&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=61381976VR589340J&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-103.94&shipping=0.00&mc_gross=-2408.70&custom=%7B%22user_id%22%3A%222020%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=53226dc9dde8a 
+[2016-02-07 19:08 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 938
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221666%22%2C%22product_id%22%3A50%7D&payment_date=09%3A08%3A00+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%90%D0%B7%D1%83%D1%80%D0%B5%D0%B3%D0%BE%D1%81+-+%D0%9E%D1%80%D0%B4%D0%B0&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A7XDaK7hjlI61.FIl-RI-OSZPJeGA2P7CX9Xu3Nw16IwojHoKlZ-l1Q1&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=5Y369407KV7172541&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=6NN11430CR319143C&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-41.34&shipping=0.00&mc_gross=-803.60&custom=%7B%22user_id%22%3A%221666%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=c3f595c171fc
+[2016-02-07 19:08 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:08:40 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=o92HkSEwtJL37W5M3KPVb-9gipAmleEPryA9LUq_WD1rjhWR31Imo_tK5A5Z--u2vgnKclbQB7L8hi9taK2l5r1Cz3aspr9k6W5hHbv0WfDBUr5Iuir73d0p2aPTebz7bwNwiflYTxJk3ugsCMvWHFIvJszcdFWA-pitaeFz-bG8LyGNcU9r377ilFEkL4Bls07HiEtEJLTKAg95IoBI71MY74Rt4sKtGQIfCEZQTbdNiC7V1KLE9gWOLAtVPHhkjnhQJx6c7RqzauoaYM_sDiR7aWK_P9mKCjis1YPZenY7FbLMxIdmgFHKuIw5EZHyoTmlawMZKVa3HYzjscpILbU-WU7ioqZ9t9n6neqaGfRO6sZrd_2Sa2OOKleQCDHvUrQ04CJobSbeLvsW5y9UdBZxCvhJGwIkzWxqhu7ITYzFhY0qMW_38bEiN2W; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:08:40 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:08:40 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864920511968; path=/; expires=Tue, 30-Jan-46 17:08:40 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: e7256a95782cc
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D410695510; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:08 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%221666%22%2C%22product_id%22%3A50%7D&payment_date=09%3A08%3A00+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=%D0%90%D0%B7%D1%83%D1%80%D0%B5%D0%B3%D0%BE%D1%81+-+%D0%9E%D1%80%D0%B4%D0%B0&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=A7XDaK7hjlI61.FIl-RI-OSZPJeGA2P7CX9Xu3Nw16IwojHoKlZ-l1Q1&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=5Y369407KV7172541&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=6NN11430CR319143C&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-41.34&shipping=0.00&mc_gross=-803.60&custom=%7B%22user_id%22%3A%221666%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=c3f595c171fc 
+[2016-02-07 19:08 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 877
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222035%22%2C%22product_id%22%3A50%7D&payment_date=09%3A08%3A18+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AQk08DcZXPZw46qH1yVs3Bw6ckLbAvowLIU8XDNBWeq0-wsAntz8v8V6&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=0EH97782KU646151V&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=8JT36662VX722630Y&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-85.52&shipping=0.00&mc_gross=-1936.40&custom=%7B%22user_id%22%3A%222035%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=9e2487302943c
+[2016-02-07 19:08 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 17:08:57 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=3CjbL6nRzD6RRnjIo2PuCOTDNtxt3bdLucVgmRsHYshePTg2H0nsfGMYYa0x6tKmKfTWUJnqGxUNyjrpVcs1g1S56ZaR7uQFyH7TaEQ9aKoME-gRQICWIETZkOdhgBgdDkNO9VOLWIC3I-d9GfLqkvYZIZRLVPKqVwXXziCj1k0WXfz3EdkGD0138--UlToQNK5ABQW9-l22LucF1WTrtaGqHWuA0EaO2Em7Tpwr0j5bL5R9zRcuNsq1Ppw4i9IkC_Fr36rPDZBtjiMSC74UdqDg6vhC_gDdV_uCdwtYss4453-mhG5SzOhXD7NcYqD3tY8vJrsYUSB_2tvVjjOjKnQ2XH3OkiF7VDDVIh6JYcuHcv2mAH8SORb0qGLc7LVjKnKVtzb9cslUx_pDasJ9Ag_ZgIU4HbrE3pGjy96-yPX52WLl8Fs0h-XNUHu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 17:08:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 17:08:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454864937708320; path=/; expires=Tue, 30-Jan-46 17:08:57 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 74a3cbc0a8610
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D695908182; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 19:08 Europe/Kiev] Verified IPN: cmd=_notify-validate&transaction_subject=%7B%22user_id%22%3A%222035%22%2C%22product_id%22%3A50%7D&payment_date=09%3A08%3A18+Feb+07%2C+2016+PST&last_name=buyer&residence_country=RU&item_name=Greedy+Dwarf&payment_gross=&mc_currency=RUB&business=fubolg_ua-facilitator%40ukr.net&payment_type=instant&protection_eligibility=Ineligible&verify_sign=AQk08DcZXPZw46qH1yVs3Bw6ckLbAvowLIU8XDNBWeq0-wsAntz8v8V6&test_ipn=1&payer_email=fubolg_ua-buyer%40ukr.net&txn_id=0EH97782KU646151V&receiver_email=fubolg_ua-facilitator%40ukr.net&first_name=test&parent_txn_id=8JT36662VX722630Y&payer_id=F7DDH2WR2Z2AS&receiver_id=46E9S97GVHPLY&reason_code=refund&item_number=&handling_amount=0.00&payment_status=Refunded&payment_fee=&mc_fee=-85.52&shipping=0.00&mc_gross=-1936.40&custom=%7B%22user_id%22%3A%222035%22%2C%22product_id%22%3A50%7D&charset=KOI8_R&notify_version=3.8&ipn_track_id=9e2487302943c 
+[2016-02-07 21:29 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1198
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=11%3A28%3A56+Feb+07%2C+2016+PST&payment_status=Completed&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=1.00&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=Ar.moX2Xy9TXj1GuDa.rZiTa7So7AHmFP5KV-HLS820jgYr3syHJ8RfU&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=89H356585W5053215&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=iPhone&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&txn_type=cart&mc_gross_1=1.00&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=White+iPhone%2C+16GB&payment_gross=&ipn_track_id=f8cdfc7c62783
+[2016-02-07 21:29 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 19:29:04 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=NtgJaiKh3wXhc8_wSNU0j6YRV7XHV27hclYo4nKa2tr9tSIyvEblSZMxzPuCUz692Rk1g__IavKytZbxU8Vau43KJYgt4HdC0LyZ0ITln4THbHDPgbPJrQkLKnLlCKqfy8bdCCmCNNqcsOo7Z0X-WZgK5KHgRkDWydfWcRwcjJAnrdIzk1VhmDyjqBOzw93tIz8v5lgQubV1gi76clUmFTSM9W1MBjnHImTHbHQvTO7-wFOWEeGsEGyPkqQvXYC2JTWbxINXamupKYhN14P2yLOt1jtcDjyOtJt13sg2HtyiASt7vpPwNKo9Rfx0bhpn65ByTqn20h6E_-LXQnnVjLtpxRDXW_CzQNhrzE4hE2T6S_64x_19R6itQtMCFMwvmKa6nnww76kDVddKVNCJ2XKTJiKiuBEyABi4Sfr82LxMRVqkXOYkFvymquu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 19:29:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 19:29:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454873345017012; path=/; expires=Tue, 30-Jan-46 19:29:05 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 881756e0f39cf
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D26982230; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-07 21:29 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=1.00&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=11%3A28%3A56+Feb+07%2C+2016+PST&payment_status=Completed&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=1.00&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=Ar.moX2Xy9TXj1GuDa.rZiTa7So7AHmFP5KV-HLS820jgYr3syHJ8RfU&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=89H356585W5053215&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=iPhone&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&txn_type=cart&mc_gross_1=1.00&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=White+iPhone%2C+16GB&payment_gross=&ipn_track_id=f8cdfc7c62783 
+[2016-02-07 23:49 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 21:49:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=n3h3o2iyfKmZu06amSokMgs8H9wHYjpy-xlVw0H3omokt2_0x5o_wgMiPAhWptJ4WDx3YuWB6oYw1LZApYa7vLBjiX4X7lbKy6LqIBKNY6gdFyE0KJFrPzBRap46Oy1V442jgj1W0AVihephTYmx7lsxIwOca1WHtPDYXZ0V9bXFXOS4cSZNzRZJ2hzGXA8VpPfb6eTYAOCdmFr80IiPF_YbI7tQHe-GZRF2JuBwI4ewbsflJctyneQIMz1sqrRT1UHnpQTnE5v2C0Pt9-6nqJcL5dqpyMAxb9U1cCja8ukdpesYhtnenbt8wNxQKBKUtmblVtPO2cdzVUvTw-GnXNDZ9sfxM2KSg__qb9u6KNMe2b00je9aEZUYxHLhVAdzgKomCYEEyRIp3U7kXQRCSKSyIdfqsGhEO9EIhhvJ5nVvJ83G7f7LfASlQyW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 21:49:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 21:49:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454881756607126; path=/; expires=Tue, 30-Jan-46 21:49:16 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: c4077a7e905e2
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3703289686; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+[2016-02-07 23:49 Europe/Kiev] Invalid IPN: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 21:49:36 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=2U-8yd1jPJC2jD7pt2S3WPu2vTEChupRrluzU7z9Dna9Rd3QPL7pIA55YZOpAyNl2G4bNXQUeWGYycCYssciAJKgPMXXNhiD8BkyYMBTtT-rpWcGPlr3NpwzQ9NTYSLZanDui-ePk1sMeejqx7HqVkC-Q_-SuZ9SkkW0Doee9p5y1mmTqdJVGC-SiSiR9NCrDiK__HCblMTvzlrI1TMDdgSRYxW7T9l1T9zSk8g1ON7MTq2DcjBNok3UbHC-4Axy8GElTRsSHomTkZY61VrgEEgm69IrzHOJh5AU6xYSBGneIHjpekg_a751zzj9MxeGk4HVLGSUFqFZUPIzkpBsWH4zcskqStFkyVqbZiSJiVtyp5qJiEk2lgoydSAf5Hs8ZxyEui-OJAo_e278R7i4Fq076X1qNPEfsR6-1AxkzQFo9wF3WOKYAHxYsLm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 21:49:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 21:49:36 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454881776627118; path=/; expires=Tue, 30-Jan-46 21:49:36 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: d696a2cb95127
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4038834006; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+[2016-02-07 23:49 Europe/Kiev] Invalid IPN: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 21:49:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=nCOIOsYMneARAtwcO8WfKcNAPzwspA1k6-WkH-AiMmEWcq8nkTCiutc-OKyGWk3f-1Z5Hhp5ya7jMVJhekvVCcfjcMl0-jd5JmSqXdzjyRSU3j5xM933sTcXFcdifz_wXxjItxG86vj3GXnklgPDJdrl_OBCb_-X0_iBdFMM6H2ZGPDls0S5NrMfzXf1VSYJSEsOkrO99xZp6wffdLDtJkF3bCMPH7li94Bd6vAHgLhMteJLQuTUyYFCXA1JjDhWDxi9BQw44Cw0jZUqx43f8YQm7oIlayK9eoQirRo16DbSWm7WSFrD8bn5M6Df4VlAu0Zax-S5sfWVsvv0CwxOa8m7GhoseXaR8ilEuRLkuT_HQ4IZqhz8ym5fcSWunHalabt_3DRXugWV33yQwY0xNjzWDTlCaBF8XPoZYfjOA6N6mw0f_fbzxRNeAtG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 21:49:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 21:49:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454881792152077; path=/; expires=Tue, 30-Jan-46 21:49:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 3335dd4e21026
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D12367702; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+[2016-02-07 23:49 Europe/Kiev] Invalid IPN: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 20
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate
+[2016-02-07 23:49 Europe/Kiev] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 21:49:55 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=1coMbp_JoUvJ0T5C-2NtnwS_NL0bjZNsW_yDLMA0PcdvdPNRnHsqtl-JXVl2ApemdEIWYZ4XCSSH3M_hNTkMrPfqvSul5GDqVKV7R7l94aBT1CvThNTZFkW01s2GZxOEBEk5lUVUiZtmwsO0L8EH314dgh6Wpvey9O0bSwKgBsdq8hiXEtSB-ucGfbxoSuYH8Ee5p4kM1kGMgnXt7tm26ndzNjhgnGpO52W0Qksjy7nkrdnXNC43FBPnbmlnMSQs3R6esY1cRXV0aNYXStlJa7WbX8DFd0NsHVy_1tgq39tihyup0tEh13YA0dgeagwRf6-YzeDpnQli7ONQnB1tMHQKYB4NmrcI_vSQl6gucIjbeJRCJIFnv5ARpqUg_-Dzy6YFNY5hpg3b6f6L17ivMISt636_Oeatmbd9MPsJgouDo0SP6VhIIhuoeFa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 21:49:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 21:49:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454881795336440; path=/; expires=Tue, 30-Jan-46 21:49:55 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: d3cd87564e131
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D62699350; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+INVALID
+[2016-02-07 23:49 Europe/Kiev] Invalid IPN: cmd=_notify-validate
+[2016-02-08 00:25 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1210
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=1.00&invoice=100&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=14%3A25%3A40+Feb+07%2C+2016+PST&payment_status=Completed&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=1.00&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=A8SKEyFJtpw0I2pUVRQ9wRhpVLh9A.gWDQtKMXwpMBXlA3FZAgUZ.brO&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=631056071T1279050&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=iPhone&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&txn_type=cart&mc_gross_1=1.00&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=White+iPhone%2C+16GB&payment_gross=&ipn_track_id=1c2408d8c8ebd
+[2016-02-08 00:25 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 22:25:46 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=-XGmPuxLAd8qxFkxLcmX7hi1_SjgK8AHB0FYOQREYso8kEtMLs-yZKloLjm36CrtCnQ7bO5EVYroQHKdHPk1Se3-5NgHzVvFGWLYulp_48wqZzgm_VKxkYnUCfBv4sqOSKRG5JrK4gnBgG8fcSFNUp7kax8RWWBLtTmUhtyR9SKuzyXw5zLDku8CNNWZcyzpIzC-Yid5O68HFfsUikyWt9hba1AA12DaXNXvCvyOYlelSRBZVyUO8_1kZT03cquEsOEKveUuFwMdrOfs68N_L0rj_HNCgWnpzNiZfTSSTKnpZUKbn7HzmKJTyeuBcfOO5oq7WpuEIIf0sXmBpP8W5jCIkVdzaWfXiWW3Upv6dsdRp5oZp9PtCaVRgbCaG4RchRlegpqWA3DId17x608FtR_4X1fDs67Ky9udNwSSyWJlroE7hF0mNu2WOgy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 22:25:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 22:25:47 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454883946811310; path=/; expires=Tue, 30-Jan-46 22:25:46 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 268a48c5c09d4
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1791276886; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 00:25 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=1.00&invoice=100&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=14%3A25%3A40+Feb+07%2C+2016+PST&payment_status=Completed&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=1.00&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=A8SKEyFJtpw0I2pUVRQ9wRhpVLh9A.gWDQtKMXwpMBXlA3FZAgUZ.brO&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=631056071T1279050&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=iPhone&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&txn_type=cart&mc_gross_1=1.00&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=White+iPhone%2C+16GB&payment_gross=&ipn_track_id=1c2408d8c8ebd 
+[2016-02-08 01:14 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1240
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=77.60&invoice=2146&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A14%3A06+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=13.03&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=ApBHX6qbpxJW-Ll3oP22LSbo0WeuAdWG8nF3PlI4.3wPOxP6eHi4TJo8&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=4NW78530ET180284F&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=77.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=7ab296c0c9b95
+[2016-02-08 01:14 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 23:14:17 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=HI0OWdRkefJx-KO7E-vQzNT0QAgasXU7_al_n3jJLgO9q6gLoCz-iqIheP3MtUq9b0R7ILk-iK0HkjcT0b_om4tcAjKZu4ibZ-x5fMQD9GjTPZuv3H-jI1QYLBdHunZQBuW75Zn1MhYas6F6AsQPT-B1d1QQbe023PoRea17zNY4lQmrydQU045JaDN5oWBQ6F9tQpHplxilMhqsoPKO2YlfjCB2pl7JxgaZtHmAihqR67mGL6ohvdB6ZRYWo93msQZNo5leWq-C90NPbRUvTfXdqfi6GAelf1of8mLyNzotZZDAUlH5CDw0r6WHsIGefqajY24X7QiNdq_8W3UhE1zfVx7PDWC2Vh_ZLiBjiL3RoLbtSVhvs5B2W831RElm8Iq_2Ckio4U70XR6xnfHmKRW-ih98dsILcOP-uaATESrgt_EaMPh2XPdxPy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 23:14:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 23:14:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454886858018407; path=/; expires=Tue, 30-Jan-46 23:14:18 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: e4324840555
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3402610518; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 01:14 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=77.60&invoice=2146&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A14%3A06+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=13.03&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=ApBHX6qbpxJW-Ll3oP22LSbo0WeuAdWG8nF3PlI4.3wPOxP6eHi4TJo8&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=4NW78530ET180284F&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=77.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=7ab296c0c9b95 
+[2016-02-08 01:35 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1240
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=77.60&invoice=2147&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A34%3A57+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=13.03&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=AQU0e5vuZCvSg-XJploSa.sGUDlpAyyBtF7x16XARDhPAUVwJT6rpSnK&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=51E81945HX280811A&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=77.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=67404daf8bf73
+[2016-02-08 01:35 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 23:35:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=5SiVI5jV6V_JK8iR9ANY8z8l0ULkEaVW3rxgygO8sX64B0skjppYcNs0MMjaIDTkemZjLpiyHPkD6wQEIiqV1LR18vrSnHBm8iJl1bqGPxtlBhHRVofpuOP3WGjnOcB20XlE8liN8lriiI4Qi0CGTXLKJPJ4kU2Y4Vi0PNLOOcGjtmYMxWYwWsYul1C6Tjv0byj-OIVQMDfRTVM5LxK8jSRHvQVSt-k6vczh85mHHj951Bs028KJR1LYdthf3rd4bzsM38KQXWZHLGpH1cyhVgWpx4FvcLE4QtAusXdt0kqk84NAkPORiWegluzwpPYYwaDdFHvaGuRKt-SNhYW6OASt-nZ5z9ZGe7RjadFBUh5-wHmyl5RXIc6DzMFRMuBjkEnb1jcGR2o52tWeOGiXlnsRNEfS6yBkImXmdE333cTmTXbwcW_B0EczCHW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 23:35:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 23:35:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454888103560110; path=/; expires=Tue, 30-Jan-46 23:35:03 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: fa7509e84174
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2815735638; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 01:35 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=77.60&invoice=2147&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A34%3A57+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=13.03&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=AQU0e5vuZCvSg-XJploSa.sGUDlpAyyBtF7x16XARDhPAUVwJT6rpSnK&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=51E81945HX280811A&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=77.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=67404daf8bf73 
+[2016-02-08 01:41 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1242
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=489.60&invoice=2148&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A41%3A26+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=29.09&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-ArGU4J-p8uRILNhnMQ5rT2lB8rC.&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=88U69878TU5739002&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=489.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=729319d0b0b34
+[2016-02-08 01:41 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sun, 07 Feb 2016 23:41:30 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=c4H0DXnH9Qg7uk4JAO5_lI12MGuBiJMzJM0CdzawQUsCHJP8Y8aU2Fg4WfgT3TOWFTKGUpNQIW0sriWV8m4c_mL6rQu9VO0JAeh7hVtiQ-HE8qWa1QlG4Iw9-UYvBcCOrr_PG1T-2bXKkb-MGiRLOmGceMIXG0pJP0zTgr8RmaceuVazu_DIY8Bofd1sYLIBaiWJbcd32-fD2k86GCz0bBZ85MWoRbMuQZRbHoONeIt3qpVDs0L_JLA2BfjFXlaiHejAzFLIUq4RQGWzh2vCHYBSHJWcdUCxmZ0dslHqN3zaV6dlF8zkUUR0Niy3EDLYhmgMXznDPJFMjOOFgOlM57Hj_94firTSo8GoMsl9oh4u57LAO0FEDeLFrPvWlIrNsQTl4HG4D1T10kta0v3Dr166J6qXP8amQ5txowfXYuY5P13ZENn5peN8-ZG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Wed, 04-Feb-2026 23:41:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Tue, 06-Feb-2018 23:41:30 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454888490597720; path=/; expires=Tue, 30-Jan-46 23:41:30 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: a692a9da8cd45
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D718714710; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 01:41 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=489.60&invoice=2148&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=15%3A41%3A26+Feb+07%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=29.09&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-ArGU4J-p8uRILNhnMQ5rT2lB8rC.&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=88U69878TU5739002&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=489.60&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=729319d0b0b34 
+[2016-02-08 11:06 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1240
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=58.20&invoice=2164&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=01%3A06%3A24+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=12.27&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=A3jiYmmG2eu7FVU7v2qrVbscjJ4.AbvB4zK5yUnuCCWBBvjco9t1iFlg&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=15T180136D5189919&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=58.20&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=99d16dae1b7ee
+[2016-02-08 11:06 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 08 Feb 2016 09:06:32 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=FBjClw4VT8JrXcinZDprQAtMVkF2ZWAmmB_F_cdoLCtPBWl2fTK_H-Wer_rRmovVuXWOJ0USflSYlMiHOj1qGEBhF2A2j61wTm5dBNnMQm_G7OfV6_uch3UFQL9OiDdFaySZdDl_g2MMRqeiSgAT_mc7hspypAQWJSlBKDgSagoGKQIDkyLozH4_oS26D2zPuFyHaZV2pRjCTgLk3PqLUtOMEiTCn75bOj3Gy8yeNbeKMY0WyKJ-87-k1_omJSVje2Osp3PbzkhaN1ye3FXNwv-YtiYM5oN00InTt5HawNVq3a0GofTGp1V_IZckeXpvhFw2RbOJMBDLGJwRKF8YwHd-ibCvImuMWyj4thhfhXg1bU2PfxBRncCMK2ku7N6uDmk8nWgoJQBIvLOYzSaA-4zVlkT81mAoZ9ZiK4l97524_yAYqd0yhXjdV08; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 05-Feb-2026 09:06:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 07-Feb-2018 09:06:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454922392733825; path=/; expires=Wed, 31-Jan-46 09:06:32 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 9214e776ae178
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2556082262; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 11:06 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=58.20&invoice=2164&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=01%3A06%3A24+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=12.27&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=A3jiYmmG2eu7FVU7v2qrVbscjJ4.AbvB4zK5yUnuCCWBBvjco9t1iFlg&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=15T180136D5189919&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=58.20&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=99d16dae1b7ee 
+[2016-02-08 11:41 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1242
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=172.80&invoice=2178&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=01%3A41%3A28+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=16.74&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=AW1eMLz24PRMKBoAgRPBLiiXCvxeA-TCDRtX32-H3omnZb7eF.ZfPRRM&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=97U16085YS7474703&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=172.80&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=e3676b5279122
+[2016-02-08 11:41 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 08 Feb 2016 09:41:33 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=hKbYaCVbMlxRd2h0hDXL6BoFeMio8cy6joQxFW_h4yyXsIHyeOwgY0yg-iXUXfqg8Q2STHxiVmqN3gJRrxwnP0080xrPnsO7MIgcwJNvGjKc4hkVqA6w5RpHu3BC_Hfa__h-HyiQunGjAfRWLiR1ZM4OIDRUqCU-3Pw043DWl0CoSvA0HYPoVbYPU3wgPg5BQhuWi-I43GUqrg8h-oSOMh8Dq2vVhP0jkuG82PBviqbrRqqXKFNyHiqOB2gtD-e4Tc15XtXo6Tp3RcswH-IEJy0Fnw184RjXXpsDQp-urJBf1kS3_73l_QBE70Hjf8WADdf18k9Z-4OgRwv8vSP8qlrgXuBU982hEW1X_IeqVTiB2kNsrkNN6ynQQJ9N4QX7SYdJ-qItDDt-sM5Git_D4IeKsywPJCVAqzG1mAI6FslDSvIyyFASOoj9lri; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 05-Feb-2026 09:41:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 07-Feb-2018 09:41:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454924493487680; path=/; expires=Wed, 31-Jan-46 09:41:33 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 4b37ce827251a
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3445798998; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 11:41 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=172.80&invoice=2178&protection_eligibility=Ineligible&address_status=unconfirmed&item_number1=&payer_id=F7DDH2WR2Z2AS&tax=0.00&address_street=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C%1A%1A%2C+%1A%1A%1A%1A%1A%1A+1%2C+%1A%1A%1A%9D%1A%9C%1A%1A%1A%1A%1A%1A%1A%1A%1A%9C+2&payment_date=01%3A41%3A28+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=127001&mc_shipping=0.00&mc_handling=0.00&first_name=test&mc_fee=16.74&address_country_code=RU&address_name=buyer+test&notify_version=3.8&custom=&payer_status=verified&address_country=Russia&num_cart_items=1&mc_handling1=0.00&address_city=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&verify_sign=AW1eMLz24PRMKBoAgRPBLiiXCvxeA-TCDRtX32-H3omnZb7eF.ZfPRRM&payer_email=fubolg_ua-buyer%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=97U16085YS7474703&payment_type=instant&last_name=buyer&address_state=%1A%1A%1A%1A%1A%1A%1A%1A%1A%9D%1A%9C&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=172.80&mc_currency=RUB&residence_country=RU&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=e3676b5279122 
+[2016-02-08 11:45 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1034
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=67.90&invoice=2180&protection_eligibility=Ineligible&address_status=confirmed&item_number1=&payer_id=MSVV7CV2QJ3KW&tax=0.00&address_street=1+Main+St&payment_date=01%3A45%3A29+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=95131&mc_shipping=0.00&mc_handling=0.00&first_name=max&mc_fee=12.99&address_country_code=US&address_name=max+max&notify_version=3.8&custom=&payer_status=verified&address_country=United+States&num_cart_items=1&mc_handling1=0.00&address_city=San+Jose&verify_sign=AzAibTQIex06ji3rlT3Oro9cEqYkA9liVd6hbtV32zA-IFHKe2PaZ.mf&payer_email=fubolg_ua%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=36F35818VK5424126&payment_type=instant&last_name=max&address_state=CA&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=67.90&mc_currency=RUB&residence_country=US&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=386c70a490c3b
+[2016-02-08 11:45 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 08 Feb 2016 09:45:35 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=lNbAk8w1fw8sPlMLgdBbziQOBq4KZ5lzR8ezxdYxROBCHrYFXQpt0fJJtglxodEG64Z5VQCHUar_vXU8OYHj9uHsGwtd0HOb02H3k_d38GuKvUqVO3oLMCht6UYp5-ptFSMYNu3ITokLfDwQfZJBKy-a542CP38NkYpRHT8ZT6rKiPVU78dSme1Wt_Rak4X9YzONhKl7eIlnJQ8jVwoz8uxTVGxYDH98LLvy4fOgnChK3WVlMu-YqCfCXIOTpMt26ZuHI5mvkyJ2F68v-MQRVNtzsbK99m7qfVhIJgUWDlyCMr53m9_wCs7b1BTN0OulLyUlAJD2lBhvobz5oNHJUX7hjNSelkwPhbgDSeovk1apYLelUlKhCZeeyAS11Yq_YwT95orSxrdxx5KlmEfSgrNysjy8wp3P5T6xKUJ36hmQbIzOtDP3smDx_ly; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 05-Feb-2026 09:45:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 07-Feb-2018 09:45:35 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454924735529128; path=/; expires=Wed, 31-Jan-46 09:45:35 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: bd7e2c307c9ab
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3210983510; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 11:45 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=67.90&invoice=2180&protection_eligibility=Ineligible&address_status=confirmed&item_number1=&payer_id=MSVV7CV2QJ3KW&tax=0.00&address_street=1+Main+St&payment_date=01%3A45%3A29+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=95131&mc_shipping=0.00&mc_handling=0.00&first_name=max&mc_fee=12.99&address_country_code=US&address_name=max+max&notify_version=3.8&custom=&payer_status=verified&address_country=United+States&num_cart_items=1&mc_handling1=0.00&address_city=San+Jose&verify_sign=AzAibTQIex06ji3rlT3Oro9cEqYkA9liVd6hbtV32zA-IFHKe2PaZ.mf&payer_email=fubolg_ua%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=36F35818VK5424126&payment_type=instant&last_name=max&address_state=CA&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=67.90&mc_currency=RUB&residence_country=US&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=386c70a490c3b 
+[2016-02-08 11:58 Europe/Kiev] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1036
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=145.50&invoice=2181&protection_eligibility=Ineligible&address_status=confirmed&item_number1=&payer_id=MSVV7CV2QJ3KW&tax=0.00&address_street=1+Main+St&payment_date=01%3A57%3A55+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=95131&mc_shipping=0.00&mc_handling=0.00&first_name=max&mc_fee=16.40&address_country_code=US&address_name=max+max&notify_version=3.8&custom=&payer_status=verified&address_country=United+States&num_cart_items=1&mc_handling1=0.00&address_city=San+Jose&verify_sign=A5mHShpQ-4NWynyUUm2KG.MrHZzSAOwz44jQs1-0-IxrQboMlGTXKXN4&payer_email=fubolg_ua%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=6K5712789G2147259&payment_type=instant&last_name=max&address_state=CA&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=145.50&mc_currency=RUB&residence_country=US&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=eedc611a9b0cd
+[2016-02-08 11:58 Europe/Kiev] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 08 Feb 2016 09:58:08 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=FBS9Jzlt-zrGU-qXBlcbCVsYmFocqdkI9P_vC4frvtt68478O88sn0oh7bvEv2GGqx44cX1Yi1wd9YQZP-t6mZdExfbvh8xd0IVvK2h8DYcfcuAawKRYHQBauVBawh9xr1W4pADW0Z35qXFRYRYnZEPTrddrm7EtOkPRRaxWy7aA60h3CYlqGo7gPcUjiU2HKaxv62om7WfIbiwQT_rYZtKGNNFxemCIKqo41PbdgAbmo-l1kRqvkULQh3OWJYlcBydoYoD8LHtB3ZyGvPAV_DBxXSghXk14e4e7d03oXHZtoDlXIivFs-GCJ2gdXrrcGRljOSPhKq_jSuK2ISMasnDDlDAjv8cncYRezGV_xIym9NKu3ARmXu5cVvUlzejwPsqWhLjsxzaDhG6RaYUAdyvHUrnS13u707avQtitrbEyhzA2Xpuievv36Ua; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 05-Feb-2026 09:58:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 07-Feb-2018 09:58:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1454925488396584; path=/; expires=Wed, 31-Jan-46 09:58:08 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+Paypal-Debug-Id: 74b95bae5cb8b
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2959521878; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2016-02-08 11:58 Europe/Kiev] Verified IPN: cmd=_notify-validate&mc_gross=145.50&invoice=2181&protection_eligibility=Ineligible&address_status=confirmed&item_number1=&payer_id=MSVV7CV2QJ3KW&tax=0.00&address_street=1+Main+St&payment_date=01%3A57%3A55+Feb+08%2C+2016+PST&payment_status=Pending&charset=KOI8_R&address_zip=95131&mc_shipping=0.00&mc_handling=0.00&first_name=max&mc_fee=16.40&address_country_code=US&address_name=max+max&notify_version=3.8&custom=&payer_status=verified&address_country=United+States&num_cart_items=1&mc_handling1=0.00&address_city=San+Jose&verify_sign=A5mHShpQ-4NWynyUUm2KG.MrHZzSAOwz44jQs1-0-IxrQboMlGTXKXN4&payer_email=fubolg_ua%40ukr.net&mc_shipping1=0.00&tax1=0.00&txn_id=6K5712789G2147259&payment_type=instant&last_name=max&address_state=CA&item_name1=Greedy+Dwarf&receiver_email=fubolg_ua-facilitator%40ukr.net&payment_fee=&quantity1=1&receiver_id=46E9S97GVHPLY&pending_reason=paymentreview&txn_type=cart&mc_gross_1=145.50&mc_currency=RUB&residence_country=US&test_ipn=1&transaction_subject=Game+currency&payment_gross=&ipn_track_id=eedc611a9b0cd 

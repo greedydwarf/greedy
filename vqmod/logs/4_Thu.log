@@ -1,0 +1,24 @@
+---------- Date: 2015-12-24 00:27:30 ~ IP : 78.27.183.6 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/c/cd10759/4gve.ru/public_html/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+MOD DETAILS:
+   modFile   : /home/c/cd10759/4gve.ru/public_html/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+

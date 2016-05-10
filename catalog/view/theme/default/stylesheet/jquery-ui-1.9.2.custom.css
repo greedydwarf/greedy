@@ -1,0 +1,179 @@
+﻿div[id^="dialog"],
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+	clear:both;
+	margin-top:100px;
+	background: #202628;
+	width: 300px !important;
+	padding:15px;
+	text-align: center;
+	margin:0 auto;
+	
+}
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+	margin-top:75px;
+	padding-bottom: 65px;
+	border-radius: 5px 5px 0 0;
+}
+#ui-id-1,
+#ui-id-2{
+	display: block;
+	color: #fff;
+    font-size: 20px;
+    height: 40px;
+    float:left;
+	font: 20px "PFDinTextCondPro-Medium", sans-serif;
+
+}
+#ui-id-1{
+	float: left;
+    text-align: left;
+    padding: 15px 0 0 45px;
+    background: url(images/icon-personal.png) left 0 no-repeat;
+    background-size: 50px;
+    margin: 12px 0 0 82px;
+}
+#ui-id-2{
+	background: none;
+    padding: 0;
+    margin: 18px 0 0 73px;
+    text-align: center;
+}
+#dialog-2{
+	padding-top: 2px;
+}
+.ui-dialog-titlebar-close.ui-corner-all{
+	display: block;
+	float:right;
+    margin-top: -3px;
+    margin-right:-3px;
+    width: 34px;
+    height: 34px;
+    border-radius: 30px;
+    overflow: hidden;
+    text-indent: -1000px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    background: #fff url(images/close.png) center center no-repeat;
+}
+div[id^="dialog"]{
+	padding:10px 30px;
+	border-radius: 0 0 5px 5px;
+}
+
+div[id^="dialog"] input[name^="login"],
+div[id^="dialog"] input[name^="pass"],
+div[id^="dialog"] input[name^="user"]{
+	border: 0px solid #d5d5d5;
+    color: #202628;
+    padding: 9px 5px;
+    height: 37px;
+    background: rgba(255,255,255,.8);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    clear: both;
+    border-radius: 2px;
+    transition: all .2s;
+    /* border: 1px solid #ddd; */
+
+}
+div[id^="dialog"] input[type="button"]{
+	border-radius: 50px;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font: bold 14px/28px "PFDinTextCondPro-Light", sans-serif;
+    padding: 6px 18px 4px;
+    cursor: pointer;
+    border: none;
+    margin: 0 0 0 0;
+    background: #fff;
+    opacity: .8;
+    transition: all .2s;
+}
+div[id^="dialog"] input:focus{
+	background: white;
+	
+}
+div[id^="dialog"] input::-webkit-input-placeholder{
+	color: #202628;
+    font: 16px "Myriad Pro", Helvetica, Arial, sans-serif;
+}
+div[id^="dialog"] input:focus::-webkit-input-placeholder{
+	color:white;
+}
+.ulogin-button-vkontakte,
+.ulogin-button-facebook{
+	width: 73px !important;
+	margin: 13px 0 !important;
+    display: inline-block !important;
+    padding: 6px 18px 4px !important;
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important; 
+    letter-spacing: 1px !important;
+    font: bold 15px/28px "PFDinTextCondPro-Light", sans-serif !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    
+}
+#button-vk-reg,
+#button-fb-reg{
+    height: 42px !important;
+    width: 109px !important;
+    cursor: pointer;
+}
+#button-vk-reg:hover,
+#button-fb-reg:hover{
+    opacity:0.7;
+}
+#button-fb-reg{
+    width: 103px !important;
+}
+.ulogin-buttons-container{
+	width: 100% !important;
+	height: auto !important;
+}
+.ulogin-button-vkontakte{
+	background: url(images/vk-authorize.png) center center no-repeat !important;
+}
+.ulogin-button-facebook{
+	background: url(images/fb-authorize.png) center center no-repeat !important;
+	margin-left: 24px !important;
+	width: 67px !important;
+    float:right !important;
+
+}
+.social-or{
+	margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 35px ;
+    margin-bottom: 0;
+    border-top: 1px solid #555;
+    color: #fff;
+    font: 18px "PFDinTextCondPro-Light", sans-serif;
+}
+.social-or .or{
+	display: block;
+    width: 40px;
+    margin: 0 auto;
+    background: #202628;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    text-transform: lowercase;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable{
+	position: fixed !important;
+	top:0 !important;
+	left:0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	background: rgba(31,37,39,.8);
+    z-index: 101;
+}
+.pull-left {
+    float: right !important;
+}

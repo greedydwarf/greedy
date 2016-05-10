@@ -1,1 +1,3 @@
-awdawdwadwad
+<?php
+	phpinfo();
+?>

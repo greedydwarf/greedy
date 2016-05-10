@@ -1,0 +1,15 @@
+---------- Date: 2015-10-27 11:16:27 ~ IP : 80.91.168.211 ----------
+REQUEST URI : /index.php?route=information/news
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+

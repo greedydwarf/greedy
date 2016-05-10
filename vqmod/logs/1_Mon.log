@@ -1,0 +1,61 @@
+---------- Date: 2015-12-07 20:50:34 ~ IP : 188.0.64.140 ----------
+REQUEST URI : /admin/index.php?route=common/login
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-07 21:07:43 ~ IP : 188.0.64.140 ----------
+REQUEST URI : /index.php?route=product/product&product_id=51
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-07 22:27:45 ~ IP : 188.0.64.140 ----------
+REQUEST URI : /index.php?route=product/product&product_id=51
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+----------------------------------------------------------------------
+
+

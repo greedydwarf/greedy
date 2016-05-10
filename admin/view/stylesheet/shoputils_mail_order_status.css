@@ -1,0 +1,24 @@
+table.form > tbody > tr > td:first-child {
+    text-align: right;
+}
+.control-label span.control-label {
+	margin-left: 5px;
+}
+.control-label span.control-label:after {
+	color: #1E91CF;
+	content: url('../image/shoputils_help.gif');
+	margin-left: 4px;
+}
+.input-group {
+  display: table;
+  width: 100%;
+}
+.input-group-addon {
+  display: table-cell;
+  width: 20px;
+  padding: 2px 12px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+}

@@ -1,0 +1,186 @@
+---------- Date: 2016-01-27 16:14:39 ~ IP : 37.54.88.134 ----------
+REQUEST URI : /admin/index.php?route=extension/modification/refresh&token=jJf77j1MoyAAfjWs4OMCKEW5zYt9i1Kn
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 16:14:41 ~ IP : 37.54.88.134 ----------
+REQUEST URI : /admin/index.php?route=extension/modification&token=jJf77j1MoyAAfjWs4OMCKEW5zYt9i1Kn
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x)
+   version   : 2.3
+   vqmver    : 2.4.1
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 16:36:34 ~ IP : 37.54.88.134 ----------
+REQUEST URI : /admin/index.php?route=user/user_permission&token=jJf77j1MoyAAfjWs4OMCKEW5zYt9i1Kn
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x)
+   version   : 2.3
+   vqmver    : 2.4.1
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 17:37:51 ~ IP : 212.80.43.17 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=2tTTH5FKVdehrKZ8zr5siYmdYRAlGEIA
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/_vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x)
+   version   : 2.3
+   vqmver    : 2.4.1
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x-v2.0)
+   version   : 2.0
+   vqmver    : 2.1.7
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 17:38:48 ~ IP : 212.80.43.17 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=2tTTH5FKVdehrKZ8zr5siYmdYRAlGEIA
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/_vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x)
+   version   : 2.3
+   vqmver    : 2.4.1
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x-v2.0)
+   version   : 2.0
+   vqmver    : 2.1.7
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 17:39:24 ~ IP : 212.80.43.17 ----------
+REQUEST URI : /admin/index.php?route=extension/module&token=2tTTH5FKVdehrKZ8zr5siYmdYRAlGEIA
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/kumarsuresh521_quick_login.xml
+   id        : Quick Login
+   version   : 1.0.1
+   vqmver    : 2.5
+   author    : kumarsuresh521-apps.blogspot.in KumarSuresh521@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/de_DE/common/header.php] (SKIPPED)
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/vqmod_shoputils_mail_order_status.xml
+   id        : Шаблоны писем (Shoputils.MailOrderStatus 1.5.x)
+   version   : 2.3
+   vqmver    : 2.4.1
+   author    : Shoputils (http://opencart.shoputils.ru)
+
+File Name    : admin/controller/common/header.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): $this->template = 'common/header.tpl';
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 21:23:10 ~ IP : 176.122.106.77 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/controller/common/seo_url.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-27 21:23:24 ~ IP : 176.122.106.77 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/news.xml
+   id        : News
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+
+MOD DETAILS:
+   modFile   : /home/iverson/altcoders.com/g2/vqmod/xml/posts.xml
+   id        : Статьи
+   version   : OC 2.x
+   vqmver    : 2.0.0
+   author    : Equotix
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+----------------------------------------------------------------------
+
+
